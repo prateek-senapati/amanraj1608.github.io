@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header Block Styling */
+
+header {
+    background: #FFF;
+    padding: 20px 0;
+}
+
+header > h1 {
+    margin: 0;
+    color: black;
+    font-family: "Nixie One" !important;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+header a, footer a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5em;
+}
+
+#active {
+    border-bottom: 2px solid black;
+}
+
+
+header a:hover, header h1:hover ,footer a:hover {
+    color: #fe4a49;
+}
+
+header ul {
+    text-align: center;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px 0 0;
+}
+
+header li:last-of-type {
+    padding: 0;
+}
+
+/* End Header Block Styling */
+
+#main {
+    padding: 20px 15px;
+    font-size: 1.15em;
+}
+
+a {
+    color: #4a4e4d;
+    text-decoration: none;
+    border-bottom: 1px solid #4a4e4d;
+}
+
+a:hover {
+    color: #fe4a49;
+    border-bottom: 1px solid #000;
+}
+
+ul {
+    padding: 0 0 0 20px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+#headline {
+    font-size: 1.3em;
+}
+
+#para {
+    font-size: 1.15em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 98%;
+  background-image: linear-gradient(to right, #d8cde2, #c0bac5, #d8cde2);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7px 15px;
+
+    background: #1e1f26;
+    color: #FFF;
+    font-size: 1em;
+}
+
+footer a {
+    font-size: 1em;
+    color: #FFF;
+}
+
+footer p {
+    margin: 10px auto;
+    max-width: 1280px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*  blog list styling */
+
+.post_credits {
+  font-size: .9em;
+  text-indent: 1em;
+  color: #9274af;
+}
+
+p.continue {
+  text-align: right;
+  padding-right: 2em;
+}
+
+/* blog pagination */
+
+.pagination {
+  width: 96%;
+  height: 2em;
+  margin: auto;
+}
+
+.pagination .previous {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
+}
+
+
+@media (min-width: 600px) {
+    #main {
+        margin: 0 auto;
+        max-width: 1000px;
+        box-sizing: border-box;
+    }
+
+    ul {
+        padding: 0 0 0 40px;
+    }
+}
