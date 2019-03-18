@@ -1,5 +1,5 @@
 # My web page
 
-**Made my own website using HTML and CSS. **
+**Hi! I am Aman. Recently I started writting blog. You can follow me on my page**
 
-Website Link - [amanraj.tk](amanraj.tk)
+Website Link - [amanraj.tk](http://amanraj1608.github.io)
