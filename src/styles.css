@@ -50,6 +50,16 @@ header li:last-of-type {
     padding: 0;
 }
 
+
+/* Image in about section */
+.s1 {
+    align-content: center;
+    -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    max-width: 175px;
+ }
+
 /* End Header Block Styling */
 
 #main {
